@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Blood Pressure Entry</title>
+<style type="text/css">
+	label {
+		display: inline-block;
+		width: 200px;
+		margin: 5px;
+		text-align: left;
+	}
+	input[type=text], select {
+		display: inline-block;
+		width: 200px;
+	}	
+	button {
+		padding: 5px;
+		margin: 10px;
+	}
+</style>
+</head>
+<body>
+	<div align="center">
+		<h1>Blood Pressure Entry</h1>
+		<form action="#" th:action="@{/calculate}" method="post" th:object="${point}">
+			<label>Systolic:</label>
+			<input type="text" th:field="*{systolic}" /><br/>
+			
+			<label>Dystolic:</label>
+			<input type="text" th:field="*{diastolic}" /><br/>
+					
+			<br/>
+
+			<label>Height in m:</label>
+			<input type="text" th:field="*{height}" /><br/>
+			
+			<label>Weight in Kg.</label>
+			<input type="text" th:field="*{weight}" /><br/>
+		
+			
+			<button type="submit">Calculate</button>		
+		</form>
+	</div>
+</body>
+</html>

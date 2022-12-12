@@ -1,0 +1,22 @@
+{
+  "name": "bloodpressure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:tests": "cucumber-js --require cucumber.conf.js --require tests/acceptance/stepDefinitions/**/*.js --format @cucumber/pretty-formatter --publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.wnlcloud.com/edmund.fitzgerald/bloodpressure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.28.1",
+    "playwright": "^1.28.1"
+  }
+}

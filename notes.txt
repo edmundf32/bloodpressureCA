@@ -1,0 +1,19 @@
+sonarqube seetup
+
+https://appinventiv.com/blog/run-sonarqube-with-docker-compose/
+
+https://gitlab.com/gitlab-org/gitlab-runner/-/issues/27300
+
+https://gitlab.com/gitlab-org/gitlab-foss/-/issues/63246
+git update-index --chmod=+x gradlew (mvnw)
+
+https://medium.com/devops-with-valentine/run-your-playwright-e2e-tests-in-gitlab-ci-ea1afe432032
+
+cucumber and playwright
+https://dev.to/jankaritech/behavior-driven-development-bdd-using-playwright-n1o
+
+playwright codegen
+npx playwright codegen http://10.8.2.35:8080
+
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Your Results are</title>
+<style type="text/css">
+	span {
+		display: inline-block;
+		width: 200px;
+		text-align: left;
+	}
+</style>
+</head>
+<body>
+	<div align="center">
+		<h2>Your results are:</h2>
+		<span>Result: Blood Pressure</span>
+		
+		<p style="resultClass" th:text="${point.result}"></p><br/>
+
+		<span>Result: BMI</span>
+		
+		<p style="resultClass" th:text="${point.BMI}"></p><br/>
+
+
+        <a href="/">Click here to return home</a>
+	</div>
+</body>
+</html>
